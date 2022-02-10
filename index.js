@@ -14,19 +14,33 @@
 
 function id() {
   // e.g. return "UP654321";
+  return 'UP2014359';
 }
 
 function fn() {
-  return 'Replace This With Your First Name';
+  return 'Allen';
 }
 
 function sn() {
-  return 'Replace This With Your Surname';
+  return 'Babu';
 }
 
-function example() {
-  // replace this example with
-  // your first function then
-  // add more below as necessary.
+function add(a,b) { 
+  const sum = a+b;
+  return sum;
+}
+
+function subtract(a,b){
+  const  result = a-b;
+  return result;
 
 }
+
+function checkObject(obj){
+const object = obj;
+
+return object = true;
+}
+
+
+
